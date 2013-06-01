@@ -1,0 +1,234 @@
+/***********************************************/
+/*    Genika stoixeia emfanisis tis selidas    */
+/***********************************************/
+BODY,HTML { /*kyria stoixeia tis selidas se HTML/CSS */
+	background-image:url(images/back.gif);
+	margin:0;
+	padding:0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	height:auto;
+	min-height:100%;
+}
+/***********************************************/
+/*       Perioxes tou CMS se apodosi CSS       */
+/***********************************************/
+#container{ /*texnikh oste na mporoume na stoixisoume sto kentro to website xoris xrhsh pinakon */
+	position:absolute;
+	left: 50%;
+	width:900px;
+	min-height:100%;
+	height:auto;
+	margin-left: -450px;	
+	background-color:#f1f0f0;
+	border-left:1px solid #000;
+	border-right: 1px solid #000;
+}
+#header_area{ /* H perioxh opou yparxei to banner - titlos */
+	width:900px;
+	height:70px;
+	background-image:url(images/header_img.jpg);
+	background-repeat: no-repeat;
+	position:relative;
+}
+#contents_area{ /*H perioxh opou tha vrisketai to kyrios yliko - keimeno kai aristero menu, tis protis selidas */
+	width:800px;
+	/*height:100%;*/
+	margin-top:50px;
+	margin-left:50px;
+	position:relative;
+}
+#horizontal_menu_area{ /* (ab: hma) H perioxh opou tha vrisketai kato apo to banner/titlo kai tha periexei to orizontio menu tou website */
+	margin-top:25px;
+	margin-left:2px;
+	width:896px;
+	height:20px;
+	background-color:#e8e5e5;
+	position:relative;
+}
+#left_menu_area{ /* (ab: lma) H perioxh opou tha vrisketai to aristero (kyrio) menu tou website */
+	width:140px;
+	float:left;
+	border-right:1px solid #e8e5e5;
+	margin-top:20px;
+	margin-left:5px;
+	position:relative;
+	min-height:inherit;
+}
+#management_area{
+	width:735px;
+	margin-top:20px;
+	margin-left:155px;
+	position:relative;
+	padding-bottom:30px;
+	min-height:100%;
+	height:auto;
+}
+#footer_area{ /* H perioxh opou tha vrisketai sto kato meros tou website kai tha periexei to footer */
+	margin-top:40px;
+	margin-bottom:5px;
+	margin-left:2px;
+	width:896px;
+	background-color:#e8e5e5;
+	position:absolute;
+	bottom:2px;
+	float:left;
+}
+/***********************************************/
+/* Style apodosis keimenou analoga me ti xrisi */
+/***********************************************/
+.error_style{ /* style emfanisis lathous */
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #ff0000;
+	font-weight:bold;
+	text-decoration:none;
+}
+.hma_style, .hma_style a:link, .hma_style a:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #000;
+	text-decoration:none;
+	padding-top:4px;
+}
+.hma_style a:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #7b9f2e;
+	text-decoration:none;
+	padding-top:4px;
+}
+.FooterFontStyle{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color: #939492;
+	text-decoration:none;
+}
+.lma_style a:link, .lma_style a:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000;
+	text-decoration:none;
+}
+.lma_style a:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#43bdca;
+	text-decoration:none;
+}
+.lma_title_style{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#43bdca;
+	font-weight:bold;
+	text-decoration:none;
+}
+.lma_style{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#43bdca;
+	text-decoration:none;
+}
+.listing_titles{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}
+.listing_results, .listing_results a:link, .listing_results a:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	text-decoration:none;
+}
+.listing_results a:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#6e6f6d;
+	text-decoration:none;
+}
+.create_style{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#7b9f2e;
+	font-weight:bold;
+	text-decoration:none;
+}
+.submission_info_style{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#6e6f6d;
+	text-decoration:none;
+}
+/*************************************************************/
+/* HTML TAGS ta opoia theloume na exoun sygekrimeni emfanisi */
+/*************************************************************/
+INPUT#long{ /* Style gia <input> tags pou xrisimopoiountai mesa stis <form> tags */
+	border:1px solid #000;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #292929;
+	background-color:#fff;
+	width:550px;
+}
+INPUT.long{ /* Style gia <input> tags pou xrisimopoiountai mesa stis <form> tags */
+	border:1px solid #000;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #292929;
+	background-color:#fff;
+	width:300px;
+}
+INPUT.long2{ /* Style gia <input> tags pou xrisimopoiountai mesa stis <form> tags */
+	border:1px solid #000;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #292929;
+	background-color:#fff;
+	width:550px;
+}
+INPUT#short{ /* Style gia <input> tags pou xrisimopoiountai mesa stis <form> tags */
+	border:1px solid #000;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #292929;
+	background-color:#fff;
+	width:100px;
+}
+INPUT#submits{ /* Style gia <input> (submits) tags pou xrisimopoiountai mesa stis <form> tags */
+	border:1px solid #000;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #7b9f2e;
+	background-color:#fff;
+}
+SELECT#visible_style{ /* Style gia <select> tags pou xrisimopoiountai mesa stis <form> tags */
+	border:1px solid #000;
+	font-size: 10px;
+	width:100px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #292929;
+	background-color:#fff;
+}
+SELECT#cat_style{ /* Style gia <select> tags pou xrisimopoiountai mesa stis <form> tags */
+	border:1px solid #000;
+	font-size: 10px;
+	width:550px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #292929;
+	background-color:#fff;
+}
+TD#style1{
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	background-color:#e8e5e5;
+}
+TD#style2{
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	background-color:#dfdcdc;
+}
+/*Style for JQuery validation*/
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; display:block;}
+

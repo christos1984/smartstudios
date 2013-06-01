@@ -1,0 +1,75 @@
+
+.jspHorizontalBar,
+.jspVerticalBar,
+.jspTrack
+{
+	background: transparent;
+}
+
+.jspDrag
+{
+	background:  #ff9900;
+	visibility:hidden;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.jspTrack .jspActive,
+.jspTrack .jspHover,
+.jspDrag:hover
+{
+	background: #8B8B9F;
+}
+
+
+.jspArrow
+{
+	background: url('../images/arrow_up.png') no-repeat;
+	
+	
+}
+
+.jspVerticalBar>.jspActive,
+.jspArrow:hover
+{
+	
+}
+
+
+
+.jspVerticalBar .jspArrow
+{
+	height: 15px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 15px;
+}
+
+.jspArrowUp
+{
+	background: url('../images/arrow_up.png') no-repeat;
+}
+
+.jspArrowDown
+{
+	background: url('../images/arrow_down.png') no-repeat;
+}
+.jspArrowDown.jspDisabled {
+	background: url('../images/arrow_down_end.png') no-repeat;
+}
+.jspArrowUp.jspDisabled {
+	background: url('../images/arrow_up_end.png') no-repeat;
+}
+
+.jspArrowLeft
+{
+	background-position: -96px 0 !important;
+}
+
+.jspArrowRight
+{
+	background-position: -32px 0 !important;
+}

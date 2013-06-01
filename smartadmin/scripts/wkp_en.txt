@@ -1,0 +1,6 @@
+4th floor: 0/2 available
+3th floor: 3/4 available
+2th floor: 2/4 available
+1th floor: 0/4 available
+Ground floor: 0/4 available
+Semi basement: 0/1 available
